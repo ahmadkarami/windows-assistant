@@ -6,9 +6,9 @@ for very simple example, adding a new language to the task bar is very simple bu
 this software started with c# and white stack framework and With the help of the UISpy.exe software. Hope with your help develope this software and Publicly available for free.
 
 more information about testStack White framework
-* (teststackwhite.readthedocs.io)[https://teststackwhite.readthedocs.io/en/latest/]
-* (github.com)[https://github.com/TestStack/White]
-* (white.teststack.net)[http://white.teststack.net/docs/getting-started]
+* [teststackwhite.readthedocs.io](https://teststackwhite.readthedocs.io/en/latest/)
+* [github.com](https://github.com/TestStack/White)
+* [white.teststack.net](http://white.teststack.net/docs/getting-started)
 
 more information about UISpy
-* (msdn.microsoft.com)[https://msdn.microsoft.com/en-us/library/ms727247(v=vs.100).aspx]
+* [msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/ms727247(v=vs.100).aspx)
