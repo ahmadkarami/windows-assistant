@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="clientApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="{{app.description}}">
+    <meta name="keywords" content="app, responsive, angular, bootstrap, dashboard, admin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <base href="./" />
+    <title data-ng-bind="pageTitle()">AHS - Transport System</title>
+    <!-- Google fonts -->
+    <link href="css/styles.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div ui-view id="app" ng-class="{'app-mobile' : app.isMobile, 'app-navbar-fixed' : app.layout.isNavbarFixed, 'app-sidebar-fixed' : app.layout.isSidebarFixed, 'app-sidebar-closed':app.layout.isSidebarClosed, 'app-footer-fixed':app.layout.isFooterFixed}"></div>
+
+    <!-- jQuery -->
+    <script src="app/js/ngscripts.min.js"></script>
+
+    <!--<script src="//maps.googleapis.com/maps/api/js?v=3.exp&libraries=weather,visualization"></script>-->
+</body>
+</html>

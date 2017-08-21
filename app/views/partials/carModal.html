@@ -1,0 +1,8 @@
+<div ng-controller="companyCtrl"><style>
+        .ex {
+            width: 60%;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+        }
+    </style><div class="modal-content1"><div class="form-control"><input type="text" class="ex" ng-model="filterLocalNo" placeholder="شماره پرونده را برای جست و جو وارد کنید"></div><table class="table"><thead><tr><th>ردیف</th><th>خودرو</th><th>شماره پرونده</th><th>شماره موتور</th><th>شماره شاسی</th><th>vin</th><th>pan</th><th>انتخاب</th></tr></thead><tbody><tr ng-repeat="item in carsInfo | filter: filterLocalNo"><td>{{$index + 1}}</td><td>{{item.info.typeId}}</td><td>{{item.info.localNo}}</td><td>{{item.info.motorNo}}</td><td>{{item.info.chassisNo}}</td><td>{{item.info.vin}}</td><td>{{item.info.pan}}</td><td><a ng-click="form.selectCar(item)">انتخاب</a></td></tr></tbody></table></div></div>
